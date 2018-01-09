@@ -56,6 +56,7 @@ public class PopulationSimilarityRateMonitor {
     private double calculateAvragesimilarity() {
         int sum = 0;
         int numOfPairs = 0;
+        /// 
         for(int i = 0; i<buckets; i++){
             sum += similarityRateArr[i]*i;
             numOfPairs += similarityRateArr[i];
